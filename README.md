@@ -20,7 +20,7 @@
 |       2022         |    10    |
 |       2023         |    11    |
 
-根据其可评测的能力，将全部数据集分为六大类，各类别名称和对应的数据集数量如表格所示。
+根据其可评测的能力，将全部数据集分为六大类，各类别名称，对应的数据集数量以及其中小类如表格所示。
 
 |       类别         |   数量   |                         小类                         |
 |:-------------------|:--------:|:---------------------------------------------------:|
@@ -2721,9 +2721,9 @@ BERTScore计算候选句子中每个标记与参考句子中每个标记的相�
 # <a ></a>Citation
 ```
 @article{qwen,
-  title={Qwen Technical Report},
-  author={Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and Benfeng Xu and Jin Xu and An Yang and Hao Yang and Jian Yang and Shusheng Yang and Yang Yao and Bowen Yu and Hongyi Yuan and Zheng Yuan and Jianwei Zhang and Xingxuan Zhang and Yichang Zhang and Zhenru Zhang and Chang Zhou and Jingren Zhou and Xiaohuan Zhou and Tianhang Zhu},
-  journal={arXiv preprint arXiv:2309.16609},
+  title={A comprehensive Survey of Datasets for Large language model evaluation},
+  author={Yuting Lu and },
+  journal={},
   year={2023}
 }
 ```
