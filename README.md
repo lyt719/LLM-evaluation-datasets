@@ -2,6 +2,37 @@
 
 # <a id="_Toc147513314"></a>评估数据集
 
+# <a ></a>总览
+此数据集综述共搜集整理147个用于大模型评估的数据集，统计这些数据集的发表年份可观测大语言模型评测数据集的发展趋势。
+|       年份         |   数量   |
+|:-------------------|:--------:|
+|       2003         |     2    |  
+|       2006         |     2    | 
+|       2011         |     1    |
+|       2013         |     1    |
+|       2015         |     3    |
+|       2016         |    10    |
+|       2017         |     7    |
+|       2018         |    27    |
+|       2019         |    21    |
+|       2020         |    28    |
+|       2021         |    23    |
+|       2022         |    10    |
+|       2023         |    11    |
+
+根据其可评测的能力，将全部数据集分为六大类，各类别名称和对应的数据集数量如表格所示。
+
+|       类别         |   数量   |                         小类                         |
+|:-------------------|:--------:|:---------------------------------------------------:|
+|      基础任务       |    34    |  句子关系  文本分类  命名实体识别  语言建模  语法评估   |
+|      推理能力       |    51    |      数学，逻辑推理  常识，知识推理  文本推理          |
+|      文本生成       |    25    |  对话应答质量  翻译  摘要生成  表格理解  约束文本生成   |
+|      代码生成       |     6    |                      代码生成                        |
+|      言语理解       |    23    |             完形填空  阅读理解  词义消歧              |
+|       可靠性        |     8    |              鲁棒性  偏见，毒性  安全性               |
+
+以下为全部数据集说明文档。针对任何一个数据集，均给出简要介绍（数据集大小，语料来源等），使用样例，测试指标，下载地址和发表年份。
+
 # <a id="_Toc147513419"></a>基础任务
 
 ## <a id="_Toc147513420"></a>句子关系
@@ -2686,3 +2717,13 @@ CIDEr首先将 n\-grams 在参考译文中出现的频率编码进来，通过TF
 ## <a id="_Toc147513503"></a>BERTScore
 
 BERTScore计算候选句子中每个标记与参考句子中每个标记的相似性分数，使用上下文嵌入计算标识的相似性，而不是精确匹配。
+
+# <a ></a>Citation
+```
+@article{qwen,
+  title={Qwen Technical Report},
+  author={Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and Benfeng Xu and Jin Xu and An Yang and Hao Yang and Jian Yang and Shusheng Yang and Yang Yao and Bowen Yu and Hongyi Yuan and Zheng Yuan and Jianwei Zhang and Xingxuan Zhang and Yichang Zhang and Zhenru Zhang and Chang Zhou and Jingren Zhou and Xiaohuan Zhou and Tianhang Zhu},
+  journal={arXiv preprint arXiv:2309.16609},
+  year={2023}
+}
+```
